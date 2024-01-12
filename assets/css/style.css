@@ -386,4 +386,6 @@ footer .line {
     font-weight: bolder;
   }
   
-  
+  #loginStudente, #loginProfessore{
+      background-color: white;
+  }
