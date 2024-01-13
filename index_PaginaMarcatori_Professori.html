@@ -38,6 +38,11 @@
   <!-- The custom style.css file is included to provide additional, project-specific styling.
        It contains custom styles for elements not covered by Bootstrap or other external libraries.
        Custom styles are defined based on the project's design requirements. -->
+  <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar">
@@ -62,6 +67,9 @@
       <ul class="navbar-nav ms-auto">
 
         <!-- Navigation links to specific topics -->
+        <li class="nav-item">
+          <a class="nav-link" href="index_PaginaAggiungiMarcatori.html">Aggiungi Marcatore</a>
+        </li>
         <li class="nav-item">
           <a class="nav-link" href="index_PaginaAR_Professori.html">AR</a>
         </li>
@@ -95,7 +103,7 @@
     <!-- Row for two download buttons -->
     <div class="row g-4 text-center">
       <!-- First column for downloading all markers in a .zip file -->
-      <div class="col-lg-6 col-sm-6" data-aos="fade-down" data-aos-delay="150">
+      <div class="col" data-aos="fade-down" data-aos-delay="150">
         <div class="purchase">
           <a href="./assets/images-marker/marker.zip">
             <button>SCARICA TUTTI I MARCATORI .zip</button>
@@ -103,13 +111,22 @@
         </div>
       </div>
       <!-- Second column for downloading all markers as .png -->
-      <div class="col-lg-6 col-sm-6" data-aos="fade-down" data-aos-delay="250">
+      <div class="col" data-aos="fade-down" data-aos-delay="250">
         <div class="purchase">
           <a onclick="dwAll()">
             <button>SCARICA TUTTI I MARCATORI .png</button>
           </a>
         </div>
       </div>
+
+      <div class="col" data-aos="fade-down" data-aos-delay="250">
+        <div class="purchase">
+          <a href="index_PaginaAggiungiMarcatori.html">
+            <button>CARICA MARCATORI</button>
+          </a>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
