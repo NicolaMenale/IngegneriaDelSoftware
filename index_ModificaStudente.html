@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta tags for character set and viewport -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Title of the page -->
+  <title>ArForEducation</title>
+
+  <!-- External CSS stylesheets -->
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+  <!-- The Bootstrap CSS stylesheet is included to provide styling and layout components.
+       It is a popular front-end framework that enhances the overall appearance and responsiveness of the website.
+       Learn more: https://getbootstrap.com/ -->
+
+  <!-- Remixicon CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <!-- The Remixicon CSS stylesheet is included to provide a set of icons for the website.
+       Remixicon is a library of high-quality, customizable, and open-source icons.
+       Learn more: https://remixicon.com/ -->
+
+  <!-- Fancybox CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css">
+  <!-- The Fancybox CSS stylesheet is included to enable image zoom functionality.
+       Fancybox is a tool used for creating modal windows, lightboxes, and interactive image galleries.
+       Learn more: https://fancyapps.com/fancybox/3/ -->
+
+  <!-- AOS (Animate On Scroll) CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- The AOS CSS stylesheet is included to provide scroll animations for elements on the page.
+       AOS is a library that animates elements as they become visible during scrolling.
+       Learn more: https://michalsnik.github.io/aos/ -->
+
+  <!-- Custom Style CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- The custom style.css file is included to provide additional, project-specific styling.
+       It contains custom styles for elements not covered by Bootstrap or other external libraries.
+       Custom styles are defined based on the project's design requirements. -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+<body>
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg bg-white sticky-top">
+  <div class="container">
+
+    <!-- Brand logo -->
+    <a class="navbar-brand" href="indexStudenti.html">
+      <img src="./assets/images/logo-no-background.png" alt="">
+    </a>
+
+    <!-- Navbar toggle button for small screens -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links and navigation menu -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+
+        <!-- Navigation links -->
+        <li class="nav-item">
+          <a class="nav-link" href="#hero">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index_PaginaMarcatori_Studenti.html">Scarica i Marcatori</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+
+    <div class="col">
+      <div class="row">
+        <div class="col mb-3">
+          <div class="card">
+            <div class="card-body">
+              <div class="e-profile">
+                <div class="row">
+                  <div class="col-12 col-sm-auto mb-3">
+                    <div class="mx-auto" style="width: 140px;">
+                      <div class="d-flex justify-content-center align-items-center rounded" style="height: 140px; background-color: rgb(233, 236, 239);">
+                        <span style="color: rgb(166, 168, 170); font: bold 8pt Arial;">140x140</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col d-flex flex-column flex-sm-row justify-content-between mb-3">
+                    <div class="text-center text-sm-left mb-2 mb-sm-0">
+                      <h4 class="pt-sm-2 pb-1 mb-0 text-nowrap">Nicola Menale</h4>
+                      <div class="mt-2">
+                        <button class="btn btn-primary" type="button">
+                          <i class="fa fa-fw fa-camera"></i>
+                          <span>Cambia Foto</span>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="text-center text-sm-right">
+                      <span class="badge badge-secondary">administrator</span>
+                      <div class="text-muted"><small>Iscritto dal 01 Settembre 2021</small></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="tab-content pt-3">
+                  <div class="tab-pane active">
+                    <form class="form" novalidate="">
+                      <div class="row">
+                        <div class="col">
+                          <div class="row">
+
+                            <div class="col">
+                              <div class="form-group">
+                                <label>Nome e Cognome</label>
+                                <input class="form-control" type="text" name="name" placeholder="John Smith" value="Nicola Menale">
+                              </div>
+                            </div>
+
+                              <div class="col">
+                                <label>Email</label>
+                                <input class="form-control" type="text" placeholder="nicola.menale001@studenti.uniparthenope.it">
+                              </div>
+
+                          </div>
+
+                        </div>
+                      </div>
+
+                      <div class="row">
+                        <div class="col-12 col-sm-6 mb-3">
+                          <div class="mb-2"><b>Cambia Password</b></div>
+                          <div class="row">
+                            <div class="col">
+                              <div class="form-group">
+                                <label>Password Corrente</label>
+                                <input class="form-control" type="password" placeholder="••••••">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col">
+                              <div class="form-group">
+                                <label>Nuova Password</label>
+                                <input class="form-control" type="password" placeholder="••••••">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col">
+                              <div class="form-group">
+                                <label>Conferma <span class="d-none d-xl-inline">Password</span></label>
+                                <input class="form-control" type="password" placeholder="••••••"></div>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                      <div class="row">
+                        <div class="col d-flex justify-content-end">
+                          <button class="btn btn-primary" type="submit">Salva Cambiamenti</button>
+                        </div>
+                      </div>
+                    </form>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-3 mb-3">
+          <div class="card mb-3">
+            <div class="card-body">
+              <div class="px-xl-3">
+                <button class="btn btn-block btn-secondary">
+                  <i class="fa fa-sign-out"></i>
+                  <span>Logout</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <h6 class="card-title font-weight-bold">Supporto</h6>
+              <button type="button" class="btn btn-primary">Contattaci</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+<!-- FOOTER -->
+<footer  id="info"    class="bg-dark">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row gy-5">
+        <!-- Footer top section with logo, project slogan, and social icons -->
+        <!-- Includes information about the project and social media links -->
+        <div class="col-lg-3 col-sm-6">
+          <a href="#"><img src="./assets/images/logo-color-3-2.png" alt=""></a>
+          <div class="line"></div>
+          <p>I limiti sono fatti per essere superati!</p>
+          <div class="social-icons">
+            <a href="https://github.com/NicolaMenale/AR-for-Education"><i class="ri-github-fill"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <h5 class="mb-0 text-white">SERVIZI</h5>
+          <div class="line"></div>
+          <ul>
+            <li> Tecnologia Realtà Aumentata</li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <h5 class="mb-0 text-white">CREATORI</h5>
+          <div class="line"></div>
+          <ul>
+            <li> GIULIO SIMPATICO</li>
+            <li> NICOLA MENALE</li>
+
+          </ul>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <h5 class="mb-0 text-white">CONTATTI</h5>
+          <div class="line"></div>
+          <ul>
+            <li>Napoli, IT </li>
+            <li>Centro Direzionale ISOLA C4, 80133</li>
+            <li>Università Degli Studi Di Napoli "Parthenope"</li>
+            <li> 081 547 6660</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row g-4 justify-content-between">
+        <!-- Footer bottom section with copyright information -->
+        <div class="col-auto">
+          <p class="mb-0">© Copyright AR FOR EDUCATION. All Rights Reserved</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- JavaScript libraries and custom scripts -->
+<!-- Bootstrap JavaScript library
+     Provides pre-built components and utilities for building responsive websites. -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- FancyApps UI JavaScript library (Fancybox for modal windows)
+     Adds functionality for modal windows (pop-ups) with a focus on image galleries. -->
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+
+<!-- AOS (Animate On Scroll) library for scroll animations
+     Library for adding scroll-based animations to elements. -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<!-- Custom JavaScript file -->
+<script src="./assets/js/main.js"></script>
+</body>
+</html>
